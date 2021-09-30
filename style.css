@@ -1,0 +1,39 @@
+html,
+body,
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(178, 203, 248);
+    color: rgb(0,0,0);
+    font-family: 'Tajawal', sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+.main-header{
+    padding: 50px;
+    background-color: rgb(219, 198, 240);
+    text-align: center;
+    margin: 0px;
+    font-size: 70px;
+    border: solid rgb(124, 112, 180) 5px;
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+}
+.second-row{
+    display: flex;
+    flex-direction: row;
+}
+.third-row{
+    display: flex;
+    flex-direction: row;
+}
+.animal-name{
+    font-size: 4rem;
+    width: 30vw;
+    height: 30vw;
+    justify-content: center;
+    border: 5px solid rgb(44, 61, 155);
+    margin: 5px;
+}
