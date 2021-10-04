@@ -8,6 +8,7 @@ body,
     font-family: 'Tajawal', sans-serif;
     font-size: 62.5%;
     box-sizing: border-box;
+    box-shadow: 0.5vw 0.5vw navy;
 }
 .main-header{
     padding: 5rem;
@@ -21,9 +22,10 @@ body,
     margin: 1rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around
 }
 .second-row{
+    margin-left: .7rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -41,4 +43,11 @@ body,
     height: 30vw;
     border: 0.5rem solid rgb(44, 61, 155);
     margin: 1rem;
+    background-color: rgb(219, 220, 245);
+}
+.pics{
+    width: 29.5vw;
+    height: 25.3vw;
+    margin-left: 1.5rem;
+    margin-top: -50rem;
 }
