@@ -8,7 +8,6 @@ body,
     font-family: 'Tajawal', sans-serif;
     font-size: 62.5%;
     box-sizing: border-box;
-    box-shadow: 0.5vw 0.5vw navy;
 }
 .main-header{
     padding: 5rem;
@@ -26,12 +25,14 @@ body,
 }
 .second-row{
     margin-left: .7rem;
+    margin-top: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 .third-row{
     margin: 1rem;
+    margin-top: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -50,4 +51,40 @@ body,
     height: 25.3vw;
     margin-left: 1.5rem;
     margin-top: -50rem;
+}
+#dog{
+    box-sizing: border-box;
+    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+}
+#cat{
+    box-sizing: border-box;
+    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+}
+#rabbit{
+    box-sizing: border-box;
+    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+}
+#parrot{
+    box-sizing: border-box;
+    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+}
+#pig{
+    box-sizing: border-box;
+    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+}
+#horse{
+    box-sizing: border-box;
+    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+}
+#sheep{
+    box-sizing: border-box;
+    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+}
+#lion{
+    box-sizing: border-box;
+    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+}
+#elephant{
+    box-sizing: border-box;
+    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
 }
