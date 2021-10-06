@@ -19,20 +19,21 @@ body,
 }
 .first-row{
     margin: 1rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around
 }
 .second-row{
-    margin-left: .7rem;
-    margin-top: 3rem;
+    margin-left: .6rem;
+    margin-top: 4.3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 .third-row{
     margin: 1rem;
-    margin-top: 3rem;
+    margin-top: 4.3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -45,6 +46,8 @@ body,
     border: 0.5rem solid rgb(44, 61, 155);
     margin: 1rem;
     background-color: rgb(219, 220, 245);
+    box-sizing: border-box;
+    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
 }
 .pics{
     width: 29.5vw;
@@ -52,39 +55,40 @@ body,
     margin-left: 1.5rem;
     margin-top: -50rem;
 }
-#dog{
-    box-sizing: border-box;
-    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+#doghover:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
 }
-#cat{
-    box-sizing: border-box;
-    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+#cathover:hover {
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
 }
-#rabbit{
-    box-sizing: border-box;
-    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+#rabbithover:hover {
+    transform: scaleY(1.05);
+    transition: 0.5s ease-in-out;
 }
-#parrot{
-    box-sizing: border-box;
-    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+#parrothover:hover {
+    transform: scale(1.05);
+    transition: all 1s;
+    transform: translate(10px);
 }
-#pig{
-    box-sizing: border-box;
-    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+#pighover:hover {
+    transform: scale(1.05);
+    transition: all 0.3%;
 }
-#horse{
-    box-sizing: border-box;
-    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+#horsehover:hover {
+    transform: scale(1.05);
+    transition: all 0.3%;
 }
-#sheep{
-    box-sizing: border-box;
-    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+#sheephover:hover {
+    transform: scale(1.05);
+    transition: all 0.3%;
 }
-#lion{
-    box-sizing: border-box;
-    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+#lionhover:hover {
+    transform: scale(1.05);
+    transition: all 0.3%;
 }
-#elephant{
-    box-sizing: border-box;
-    box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
+#elephanthover:hover {
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
 }
