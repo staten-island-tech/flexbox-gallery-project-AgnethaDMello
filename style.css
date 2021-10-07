@@ -68,27 +68,48 @@ body,
     transition: 0.5s ease-in-out;
 }
 #parrothover:hover {
-    transform: scale(1.05);
     transition: all 1s;
-    transform: translate(10px);
+    transform: translate(-10px);
 }
 #pighover:hover {
-    transform: scale(1.05);
-    transition: all 0.3%;
+    transform: scaleX(1.05);
+    transition: 1s ease-in-out;
 }
 #horsehover:hover {
-    transform: scale(1.05);
-    transition: all 0.3%;
+    transform: translate(0,10px);
+    transition: all ;
 }
 #sheephover:hover {
     transform: scale(1.05);
-    transition: all 0.3%;
+    transition: all 0.5s;
 }
 #lionhover:hover {
     transform: scale(1.05);
-    transition: all 0.3%;
+    transition: linear 0.5s;
 }
 #elephanthover:hover {
     transform: scale(1.05);
     transition: 1s ease-in-out;
 }
+.main-header{
+    animation-duration: 10s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    33% {
+      margin-left: -75%;
+      width: 200%;
+    }
+    66% {
+        margin-left: -25%;
+        width: 200%;
+    }
+    99% {
+        margin-left: 0%;
+        width: 100%;
+    }
+  }
