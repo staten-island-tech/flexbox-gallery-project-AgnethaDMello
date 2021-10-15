@@ -54,6 +54,7 @@ body,
 .pics{
     width: 29.5vw;
     height: 25.3vw;
+    object-fit: cover;
     margin-left: 1.5rem;
     margin-top: -50rem;
     position: relative;
