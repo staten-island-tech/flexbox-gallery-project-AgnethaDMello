@@ -119,7 +119,7 @@ body,
         width: 100%;
     }
   }
-@media screen and (max-width: 834px){
+@media screen and (max-width: 50rem){
     .main-header{
         color: purple;
     }
@@ -129,12 +129,12 @@ body,
         position: relative;
     }
     .pics{
-        margin-top: -20rem;
-        width: 21rem;
+        margin-top: -21.5rem;
+        width: 23rem;
         position: relative;
     }
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 35rem){
     .main-header{
         color: rgb(0, 2, 128);
         font-size: 5rem;
@@ -145,8 +145,8 @@ body,
         position: relative;
     }
     .pics{
-        margin-top: -15rem;
-        width: 15.5rem;
+        margin-top: -15.5rem;
+        width: 15.75rem;
         position: relative;
     }
 }
