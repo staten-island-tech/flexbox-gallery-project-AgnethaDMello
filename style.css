@@ -39,9 +39,7 @@ body,
     flex-direction: row;
     justify-content: space-around;
 }
-.animal-name{
-    font-size: 5rem;
-    text-align: center;
+.both{
     width: 30vw;
     height: 30vw;
     border: 0.5rem solid rgb(44, 61, 155);
@@ -50,13 +48,18 @@ body,
     box-sizing: border-box;
     box-shadow: 1vw 1vw 1vw rgb(5, 6, 56);
     position: relative;
+    text-align: center;
+}
+.animal-name{
+    font-size: 5rem;
+    margin: 1rem;
+    background-color: rgb(219, 220, 245);
 }
 .pics{
     width: 29.5vw;
     height: 25.3vw;
     object-fit: cover;
-    margin-left: 1.5rem;
-    margin-top: -50rem;
+    margin-top:-0.5rem;
     position: relative;
 }
 #doghover{
