@@ -120,18 +120,20 @@ body,
         width: 100%;
     }
   }
-@media screen and (max-width: 50rem){
+@media screen and (max-width: 80rem){
     .main-header{
         color: purple;
     }
     .animal-name{
         font-size: 3rem;
         height: 25rem;
+        width: 24rem;
         position: relative;
     }
     .pics{
         margin-top: -21.5rem;
         width: 23rem;
+        height: 20rem;
         position: relative;
     }
 }
@@ -141,13 +143,15 @@ body,
         font-size: 5rem;
     }
     .animal-name{
-        font-size: 3rem;
-        height: 20rem;
+        font-size: 2rem;
+        height: 10.5rem;
+        width: 10rem;
         position: relative;
     }
     .pics{
-        margin-top: -15.5rem;
-        width: 15.75rem;
+        margin-top: -8.5rem;
+        width: 9rem;
+        height: 7rem;
         position: relative;
     }
 }
