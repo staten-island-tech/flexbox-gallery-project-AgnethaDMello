@@ -128,33 +128,57 @@ body,
         color: purple;
     }
     .animal-name{
-        font-size: 3rem;
-        height: 25rem;
-        width: 24rem;
+        font-size: 4rem;
+        width: 27vw;
+        margin-top: 0%;
         position: relative;
     }
     .pics{
-        margin-top: -21.5rem;
-        width: 23rem;
-        height: 20rem;
+        width: 23.3rem;
+        height: 17.5rem;
         position: relative;
     }
 }
 @media screen and (max-width: 35rem){
     .main-header{
         color: rgb(0, 2, 128);
-        font-size: 5rem;
+        font-size: 6rem;
+    }
+    .both{
+        width: 50vw;
+        height: 50vw;
+        margin: 3rem;
+    }
+    .first-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .second-row{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -1rem;
+    }
+    .third-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1rem;
     }
     .animal-name{
-        font-size: 2rem;
-        height: 10.5rem;
-        width: 10rem;
+        font-size: 3rem;
+        margin-left: 1.5rem;
+        margin-top: 0%;
+        width: 40vw;
+        height: 40vw;
         position: relative;
     }
     .pics{
-        margin-top: -8.5rem;
-        width: 9rem;
-        height: 7rem;
+        margin-top: -13rem;
+        width: 18.5rem;
+        height: 15rem;
         position: relative;
     }
 }
